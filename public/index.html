@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <link rel='stylesheet' type='text/css' media='screen' href="style.css">
+        <script src='./css/stylee.css'></script>
+        
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        
+        
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+        <script src="https://kit.fontawesome.com/dadd998619.js" crossorigin="anonymous"></script>
+
+
+        <script src="./backend.js"></script>
+        <script src="./js/login.js"></script>
+
+
+    </head>
+    <body>
+
+    <section>
+            <nav>
+                <div class="logo">
+                    <img src="./img/logo1.png" alt="" width="150px" height="80px">
+                    <H1>Grand <span>Music</span> </H1>
+                </div>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="Menu.html">Instrumentos</a></li>
+                    
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="acesso.html">Cadastro</a></li>
+                    <li><a href="./sobre.html">Sobre nós</a></li>
+                </ul>
+                <div class="icons">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-heart"></i>
+                    <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+                </div>
+            </nav>
+
+        
+
+      
+        <div class="main">
+            <div class="men_text">
+                <h1> Grand <span>Music</span><br>
+                Viva sua vida através da musica
+                </h1>
+            </div>
+            <div class="main_image">
+                <img src="./img/fundo.png">
+            </div>
+            </div>
+            
+        </div>
+        <p>Na imensidão do universo sonoro, a música surge como uma linguagem universal capaz de transcender fronteiras e conectar corações. Ela é uma expressão sublime da arte, capaz de despertar emoções, contar histórias e transmitir mensagens que vão além das palavras.
+        </p>
+
+        <div class="main_btn">
+            <a href="#">Compre agora</a>
+            <i class="fa-solid fa-angles-right"></i>
+        </div>
+
+    </section>
+
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+        body{
+            background-image: url(./img/2.png);
+            width: 100%;
+            height: 100vh;
+            background-image: url(./img/2.png);
+            background-size: cover;
+            background-position: center;
+        }
+        
+        html{
+            scroll-behavior: smooth;
+        }
+        
+        span{
+            color:#6d38e9;
+            
+        }
+        
+        section{
+            width: 100%;
+            height: 100vh;
+        }
+        
+        section nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            position: fixed;
+            right: 0;
+            left: 0;
+            /*background-color: #e7e7e7 ;*/
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+            z-index: 1000;
+        }
+        
+        section nav .logo img{
+            width: 100px;
+            cursor: pointer;
+            margin: 7px 0;
+        }
+        .logo{
+            display: flex;
+            align-items: center;
+        }
+        
+        section nav ul{
+            list-style: none;
+        }
+        
+        section nav ul li{
+            display: inline-block;
+            padding-left: 0 15px;
+            padding-top: 35px;
+            
+          
+        }
+        
+        section nav ul li a{
+            text-decoration: none;
+            color: black;
+            font-weight: 500;
+            font-size: 30px;
+            transition: 0.1s; 
+            padding-left: 15px;
+            
+            padding-inline: 50px;
+            
+        }
+        
+        section nav ul li a::after{
+            content: '';
+            width: 0;
+            height: 2px;
+            background: #6d38e9;
+            display: block;
+            transition: 0.2s linear;
+        }
+        
+        section nav ul li a:hover::after{
+            width: 100%;
+        }
+        
+        section nav ul li a:hover{
+            color: #6d38e9;
+        }
+        section nav .icons i{
+            font-size: 22px;
+            color: black(255, 254, 254);
+            margin: 0 8px;
+            cursor: pointer;
+            transition: 0.3s;
+        
+        
+        }
+        section nav .icons i:hover{
+            color: #6d38e9;
+        }
+        section .main{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            position: relative;
+            top: 10px;
+        }
+        section .main .men_text h1{
+            font-size: 60px;
+            position: relative;
+            top: -90;
+            left: 20px;
+        
+        }
+        section .main .men_text h1 span{
+             margin-left: 15px;
+             color: #6d38e9;
+             font-family: mv boli;
+             line-height: 22px;
+             line-height: 70px;
+        }
+        section .main .main_image img{
+            width: 700px;
+            position: relative;
+            padding-right: 50px;
+            left: 70px;
+            padding-top: 100px;
+        }
+        section p{
+            width: 650px;
+            text-align: justify;
+            position: relative;
+            top: -280px;
+            left: 123px;
+            bottom: 120px;
+            line-height: 22px;
+            font-size: 18px;
+        
+        }
+        section .main_btn{
+            background: #6d38e9;
+            position: relative;
+            left: 123px;
+            bottom: 250px;
+            width: 277px;
+            height: 70px;
+            cursor: pointer;
+            padding: 5px 75px;
+            padding-top: 22px;
+        
+        }
+        section .main_btn a{
+            color:white;
+            text-decoration: none;
+            margin-right:  5px;
+        
+        }
+        section .main_btn  i{
+            color: white;
+            transition: 0.3s;
+        }
+        section .main_btn:hover i{
+            transform: translate(7px);
+        }
+        
+    </style>
+
+            </div> 
+
+    </body>

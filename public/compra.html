@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Website - Shopping Cart</title>
+    
+    <link rel="stylesheet" href="./css/compra.css">
+   
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <!-- Nav -->
+        <div class="nav-container">
+           
+        
+            <nav class="header_1">
+                <div class="logo">
+                    <img src="./img/logo1.png" alt="" width="150px" height="80px">
+                    <H1>Grand <span>Music</span> </H1>
+                </div>
+                <ul>
+                   
+                    <li><a href="index.html">Home</a></li>
+                    
+                    <li><a href="Menu.html">Instrumentos</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="acesso.html">Cadastro</a></li>
+                    
+                    <li><a href="sobre.html">Sobre nós</a></li>
+                   
+                </ul>
+                <li>Carrinho=><i class='bx bx-shopping-bag' id="cart-icon"></i></li>
+            </nav>
+           
+            <!-- Cart-Icon -->
+           
+           
+            
+
+            <div class="cart">
+                <h2 class="cart-title">Seu Carrinho</h2>
+                
+                <div class="cart-content">
+
+                </div>
+                
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">$0</div>
+                </div>
+               
+               <a href="cartao.html" button type="button" class="btn-buy">Comprar</button> </a>
+                
+                <i class='bx bx-x' id="close-cart"></i>
+
+            </div>
+        </div>
+    </header>
+    
+    <section class="shop container">
+        <h2 class="section-title">Produtos disponiveis  </h2>
+        
+        <div class="shop-content">
+           
+            <div class="product-box">
+                <img src="./img/cordas/1.png" alt="" class="product-img">
+                <h2 class="product-title">Violão Marrom</h2>
+                <span class="price">99</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+          
+            <div class="product-box">
+                <img src="./img/compras/2.png" alt="" class="product-img">
+                <h2 class="product-title">Violao Acustico PT
+                </h2>
+                <span class="price">320</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+         
+            <div class="product-box">
+                <img src="./img/cordas/3.png" alt="" class="product-img">
+                <h2 class="product-title">Banjo americano</h2>
+                <span class="price">$320</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+           
+            <div class="product-box">
+                <img src="./img/cordas/4.png" alt="" class="product-img">
+                <h2 class="product-title">VIOLÃO FOLK</h2>
+                <span class="price">$24.04</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+          
+            <div class="product-box">
+                <img src="./img/compras/5.png" alt="" class="product-img">
+                <h2 class="product-title">Banjo Elétrico</h2>
+                <span class="price">$50</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            
+            <div class="product-box">
+                <img src="./img/compras/6.png" alt="" class="product-img">
+                <h2 class="product-title">Guitarra Eletrica TG-530</h2>
+                <span class="price">$50</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+           
+            <div class="product-box">
+                <img src="./img/compras/7.png" alt="" class="product-img">
+                <h2 class="product-title">Guitarra Elétrica TC120s</h2>
+                <span class="price">$70</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+            <div class="product-box">
+                <img src="./img/compras/8.png" alt="" class="product-img">
+                <h2 class="product-title">Guitarra TG-530</h2>
+                <span class="price">$45</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+
+            
+                <div class="product-box">
+                    <img src="./img/Percursao/8.png" alt="" class="product-img">
+                    <h2 class="product-title">Malacacheta AL</h2>
+                    <span class="price">99</span>
+                    <i class='bx bx-shopping-bag add-cart'></i>
+                </div>
+
+
+                   
+                    <div class="product-box">
+                        <img src="./img/Percursao/1.png" alt="" class="product-img">
+                        <h2 class="product-title">Tambor Afro</h2>
+                        <span class="price">99</span>
+                        <i class='bx bx-shopping-bag add-cart'></i>
+                    </div>
+
+
+                   
+                       
+                        <div class="product-box">
+                            <img src="./img/Percursao/2.png" alt="" class="product-img">
+                            <h2 class="product-title">Bateria Trip</h2>
+                            <span class="price">99</span>
+                            <i class='bx bx-shopping-bag add-cart'></i>
+                        </div>
+
+
+                        
+                        
+                            <div class="product-box">
+                                <img src="./img/Percursao/3.png" alt="" class="product-img">
+                                <h2 class="product-title">Pandeiro</h2>
+                                <span class="price">99</span>
+                                <i class='bx bx-shopping-bag add-cart'></i>
+                            </div>
+
+
+                          
+                                
+                                <div class="product-box">
+                                    <img src="./img/Percursao/4.png" alt="" class="product-img">
+                                    <h2 class="product-title">tumbadora bauer</h2>
+                                    <span class="price">99</span>
+                                    <i class='bx bx-shopping-bag add-cart'></i>
+                                </div>
+
+
+                                   
+                                    <div class="product-box">
+                                        <img src="./img/Percursao/5.png" alt="" class="product-img">
+                                        <h2 class="product-title">Malacacheta Aço</h2>
+                                        <span class="price">99</span>
+                                        <i class='bx bx-shopping-bag add-cart'></i>
+                                    </div>
+
+
+                                
+                                      
+                                        <div class="product-box">
+                                            <img src="./img/Percursao/6.png" alt="" class="product-img">
+                                            <h2 class="product-title">Pandeiro comum</h2>
+                                            <span class="price">99</span>
+                                            <i class='bx bx-shopping-bag add-cart'></i>
+                                        </div>
+
+                                       
+                                            
+                                            <div class="product-box">
+                                                <img src="./img/compras/1.png" alt="" class="product-img">
+                                                <h2 class="product-title">Tambor Africano Romacci</h2>
+                                                <span class="price">99</span>
+                                                <i class='bx bx-shopping-bag add-cart'></i>
+                                            </div>
+
+
+
+
+
+                                            <div class="product-box">
+                                                <img src="./img/eletronicos/8.png" alt="" class="product-img">
+                                                <h2 class="product-title">Pad Eletrônico Roland
+                                                </h2>
+                                                <span class="price">320</span>
+                                                <i class='bx bx-shopping-bag add-cart'></i>
+                                            </div>
+
+
+                                            <div class="product-box">
+                                                <img src="./img/eletronicos/7.png" alt="" class="product-img">
+                                                <h2 class="product-title">Pioneer CDJ9007
+                                                </h2>
+                                                <span class="price">320</span>
+                                                <i class='bx bx-shopping-bag add-cart'></i>
+                                            </div>
+
+
+                                            <div class="product-box">
+                                                <img src="./img/eletronicos/6.png" alt="" class="product-img">
+                                                <h2 class="product-title">Mixer Pionner Nexus
+                                                </h2>
+                                                <span class="price">320R$</span>
+                                                <i class='bx bx-shopping-bag add-cart'></i>
+                                            </div>
+
+                                            <div class="product-box">
+                                                <img src="./img/eletronicos/5.png" alt="" class="product-img">
+                                                <br><br>
+                                                <h2 class="product-title">Kit 2 CDJ
+                                                </h2>
+                                                
+                                                <span class="price">320</span>
+                                                <i class='bx bx-shopping-bag add-cart'></i>
+                                            </div>
+
+                                            <div class="product-box">
+                                                <img src="./img/eletronicos/4.png" alt="" class="product-img">
+                                                <h2 class="product-title">Controlador Launchpad
+                                                </h2>
+                                                <span class="price">320</span>
+                                                <i class='bx bx-shopping-bag add-cart'></i>
+                                            </div>
+
+
+                                            <div class="product-box">
+                                                <img src="./img/eletronicos/3.png" alt="" class="product-img">
+                                                <h2 class="product-title">Teclado Musical Elétrico k30
+                                                </h2>
+                                                <span class="price">320</span>
+                                                <i class='bx bx-shopping-bag add-cart'></i>
+                                            </div>
+
+                                            <div class="product-box">
+                                                <img src="./img/eletronicos/2.png" alt="" class="product-img">
+                                                <h2 class="product-title">Teclado Controlador 
+                                                </h2>
+                                                <span class="price">320</span>
+                                                <i class='bx bx-shopping-bag add-cart'></i>
+                                            </div>
+
+                                            <div class="product-box">
+                                                <img src="./img/eletronicos/1.png" alt="" class="product-img">
+                                                <h2 class="product-title">Teclado Sintetizador
+                                                </h2>
+                                                <span class="price">320</span>
+                                                <i class='bx bx-shopping-bag add-cart'></i>
+                                            </div>
+
+                                            
+
+
+        </div>
+
+
+
+
+
+
+
+
+    </section>
+    <style>
+   
+</style>
+
+
+    <script src="js/main.js"></script>
+    
+</body>
+</html>
